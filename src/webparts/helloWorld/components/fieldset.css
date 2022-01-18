@@ -1,0 +1,87 @@
+.flexControl {
+    width: 100%;
+    display: flex!important;
+    align-items: center;
+}
+
+fieldset[data-property]:not([data-property=""]) {
+    border: none;
+    padding: 0!important;
+}
+
+fieldset[data-property]:not([data-property=""]) label {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    display: block;
+    padding: 5px 0px;
+    overflow-wrap: break-word;
+  }
+
+  fieldset[data-property]:not([data-property=""]) input {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px 8px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    border: none;
+    background: none transparent;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-width: 0px;
+    text-overflow: ellipsis;
+    outline: 0px;
+    box-shadow: none;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 2px;
+    background: rgb(24, 37, 52);
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  fieldset[data-property]:not([data-property=""]) input:invalid {
+    border: 1px solid red;
+  }
+
+  fieldset[data-property]:not([data-property=""]) input[type="color"] {
+    width:60px;
+  }
+
+  fieldset[data-property="fieldsetCheckbox"] input[type="checkbox"] {
+    width:32px;
+  }
+
+  fieldset[data-property]:not([data-property=""]) input::-webkit-calendar-picker-indicator {
+    background: teal; 
+  }
+
+  fieldset[data-property]:not([data-property=""]) input::-webkit-datetime-edit-text {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+
+  fieldset[data-property="fieldsetCascadingSelect"] div, fieldset[data-property="fieldsetDatesInput"] div {
+    width: 100%;
+    justify-content: space-between;
+}
+
+fieldset[data-property="fieldsetDatesInput"] input {
+    width: 139px!important;
+    padding: 4px!important;
+}

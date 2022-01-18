@@ -1,0 +1,14 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": true,
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.14.0-beta.4",
+    "libraryName": "test-114-beta",
+    "libraryId": "2799e8a0-a8b5-4bcf-8cab-2e43e74c98eb",
+    "packageManager": "npm",
+    "solutionShortDescription": "test-114-beta description",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
